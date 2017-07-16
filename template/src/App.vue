@@ -19,14 +19,15 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+import Component from 'vue-class-component'
+
+@Component({
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+})
+export default class App extends Vue {
+  msg = 'Welcome to Your Vue.js App'
 }
 </script>
 
