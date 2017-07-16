@@ -23,9 +23,7 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
 
-@Component({
-  name: 'app',
-})
+@Component
 export default class App extends Vue {
   msg = 'Welcome to Your Vue.js App'
 }
